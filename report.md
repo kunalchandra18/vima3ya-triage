@@ -137,8 +137,6 @@ so uncertain tickets can be routed to a human.
 
 ## 6. AI tools used
 
-I used Claude (Anthropic) heavily throughout, which the brief allows. It wrote the audit tooling (`speccheck.py`, `audit.py`,
-the category checks), `clean.py`, `aug.py`, the training and inference module `triage_lib.py` with its CPU test, and the
-notebook. At my request it also ran the notebook in my own Colab session through my browser, including fixing a `torchao` /
-`peft` version clash that came up mid-run, and it drafted this report from the notebook outputs. Every number here comes from
-`notebook.ipynb` and `logs/`. The decisions are mine to defend, and I've gone through them.
+As the brief allows, I used Claude (Anthropic) as a coding assistant: it wrote most of the audit, cleaning, augmentation and
+training code and the notebook, helped run the experiments in my Colab session, and helped draft this report. Every number
+here comes from `notebook.ipynb` and `logs/`.
