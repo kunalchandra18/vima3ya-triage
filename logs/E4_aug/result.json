@@ -1,0 +1,21 @@
+{
+ "name": "E4_aug",
+ "change": "+700 spec-driven synthetic tickets (own idea)",
+ "dev_exact": 0.9,
+ "dev_field": 0.981875,
+ "json_valid": 1.0,
+ "fields": {
+  "category": 0.975,
+  "priority": 0.925,
+  "amount_paise": 0.995,
+  "txn_date": 0.995,
+  "txn_id": 1.0,
+  "channel": 0.995,
+  "language": 1.0,
+  "needs_human": 0.97
+ },
+ "peak_gpu_gib": 5.641887664794922,
+ "train_min": 15.252393607298533,
+ "trainable": 18464768,
+ "n_rows": 1999
+}

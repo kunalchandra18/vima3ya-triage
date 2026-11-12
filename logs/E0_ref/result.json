@@ -1,0 +1,21 @@
+{
+ "name": "E0_ref",
+ "change": "reference: cleaned data, 16-bit LoRA r16, lr 2e-4, 2 epochs",
+ "dev_exact": 0.71,
+ "dev_field": 0.956875,
+ "json_valid": 1.0,
+ "fields": {
+  "category": 0.965,
+  "priority": 0.795,
+  "amount_paise": 0.995,
+  "txn_date": 0.98,
+  "txn_id": 1.0,
+  "channel": 0.995,
+  "language": 1.0,
+  "needs_human": 0.925
+ },
+ "peak_gpu_gib": 5.603752613067627,
+ "train_min": 9.184261401494345,
+ "trainable": 18464768,
+ "n_rows": 1299
+}

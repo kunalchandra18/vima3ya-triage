@@ -1,0 +1,21 @@
+{
+ "name": "E1_raw",
+ "change": "raw train.jsonl instead of cleaned",
+ "dev_exact": 0.735,
+ "dev_field": 0.954375,
+ "json_valid": 1.0,
+ "fields": {
+  "category": 0.98,
+  "priority": 0.755,
+  "amount_paise": 1.0,
+  "txn_date": 0.985,
+  "txn_id": 1.0,
+  "channel": 1.0,
+  "language": 1.0,
+  "needs_human": 0.915
+ },
+ "peak_gpu_gib": 5.630145072937012,
+ "train_min": 10.156388000647228,
+ "trainable": 18464768,
+ "n_rows": 1445
+}

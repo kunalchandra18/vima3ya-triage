@@ -1,0 +1,11 @@
+# never push training data, derived training data, or the candidate pack
+data/
+data_proc/
+candidate_pack/
+train*.jsonl
+dev.jsonl
+test_inputs.jsonl
+*_meta.jsonl
+*.zip
+__pycache__/
+.ipynb_checkpoints/

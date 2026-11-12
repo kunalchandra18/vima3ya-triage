@@ -1,0 +1,21 @@
+{
+ "name": "E2_qlora",
+ "change": "4-bit NF4 QLoRA instead of fp16 base",
+ "dev_exact": 0.625,
+ "dev_field": 0.935625,
+ "json_valid": 1.0,
+ "fields": {
+  "category": 0.97,
+  "priority": 0.675,
+  "amount_paise": 0.995,
+  "txn_date": 0.975,
+  "txn_id": 0.995,
+  "channel": 1.0,
+  "language": 1.0,
+  "needs_human": 0.875
+ },
+ "peak_gpu_gib": 5.08853816986084,
+ "train_min": 11.206657155354817,
+ "trainable": 18464768,
+ "n_rows": 1299
+}

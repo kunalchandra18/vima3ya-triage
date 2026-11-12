@@ -1,0 +1,70 @@
+{
+ "B1_fixed_prompt": {
+  "strict": {
+   "n": 200,
+   "json_valid": 0.0,
+   "exact_match": 0.0,
+   "mean_field_acc": 0.0,
+   "fields": {
+    "category": 0.0,
+    "priority": 0.0,
+    "amount_paise": 0.0,
+    "txn_date": 0.0,
+    "txn_id": 0.0,
+    "channel": 0.0,
+    "language": 0.0,
+    "needs_human": 0.0
+   }
+  },
+  "lenient": {
+   "n": 200,
+   "json_valid": 0.94,
+   "exact_match": 0.0,
+   "mean_field_acc": 0.0,
+   "fields": {
+    "category": 0.0,
+    "priority": 0.0,
+    "amount_paise": 0.0,
+    "txn_date": 0.0,
+    "txn_id": 0.0,
+    "channel": 0.0,
+    "language": 0.0,
+    "needs_human": 0.0
+   }
+  }
+ },
+ "B2_rules_in_prompt": {
+  "strict": {
+   "n": 200,
+   "json_valid": 0.0,
+   "exact_match": 0.0,
+   "mean_field_acc": 0.0,
+   "fields": {
+    "category": 0.0,
+    "priority": 0.0,
+    "amount_paise": 0.0,
+    "txn_date": 0.0,
+    "txn_id": 0.0,
+    "channel": 0.0,
+    "language": 0.0,
+    "needs_human": 0.0
+   }
+  },
+  "lenient": {
+   "n": 200,
+   "json_valid": 1.0,
+   "exact_match": 0.005,
+   "mean_field_acc": 0.615,
+   "fields": {
+    "category": 0.67,
+    "priority": 0.35,
+    "amount_paise": 0.865,
+    "txn_date": 0.71,
+    "txn_id": 0.635,
+    "channel": 0.75,
+    "language": 0.635,
+    "needs_human": 0.305
+   }
+  }
+ }
+}

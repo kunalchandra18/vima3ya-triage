@@ -1,0 +1,21 @@
+{
+ "name": "E5_aug_lr5e-4",
+ "change": "final: E4 data + lr 5e-4 (combines the two wins; not a one-change run)",
+ "dev_exact": 0.935,
+ "dev_field": 0.98875,
+ "json_valid": 1.0,
+ "fields": {
+  "category": 0.985,
+  "priority": 0.97,
+  "amount_paise": 0.995,
+  "txn_date": 0.98,
+  "txn_id": 1.0,
+  "channel": 1.0,
+  "language": 1.0,
+  "needs_human": 0.98
+ },
+ "peak_gpu_gib": 8.589738845825195,
+ "train_min": 15.275160713990529,
+ "trainable": 18464768,
+ "n_rows": 1999
+}

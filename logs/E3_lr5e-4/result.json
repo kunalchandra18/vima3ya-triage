@@ -1,0 +1,21 @@
+{
+ "name": "E3_lr5e-4",
+ "change": "learning rate 5e-4 instead of 2e-4",
+ "dev_exact": 0.915,
+ "dev_field": 0.983125,
+ "json_valid": 1.0,
+ "fields": {
+  "category": 0.97,
+  "priority": 0.93,
+  "amount_paise": 1.0,
+  "txn_date": 0.995,
+  "txn_id": 1.0,
+  "channel": 1.0,
+  "language": 1.0,
+  "needs_human": 0.97
+ },
+ "peak_gpu_gib": 5.603753566741943,
+ "train_min": 9.170541926225026,
+ "trainable": 18464768,
+ "n_rows": 1299
+}
